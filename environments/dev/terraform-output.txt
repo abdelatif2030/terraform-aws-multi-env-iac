@@ -1,0 +1,16 @@
+﻿elastic_ips = [
+  "52.200.68.184",
+]
+instance_ids = [
+  "i-005c07854bde869d1",
+]
+instance_public_ips = [
+  "44.222.149.83",
+]
+public_subnet_ids = [
+  "subnet-02ff7aa05cb4813d0",
+  "subnet-073f19fc955a97546",
+]
+ssh_command = "ssh -i $env:USERPROFILE\\.ssh\\terraform_key ec2-user@52.200.68.184"
+vpc_id = "vpc-068b36a230febde2a"
+web_sg_id = "sg-09bad7b486d7bec23"

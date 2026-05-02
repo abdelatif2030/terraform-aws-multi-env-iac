@@ -1,0 +1,35 @@
+# ------------------------
+# Terraform Core
+# ------------------------
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Terraform lock (keep ONLY root if needed)
+**/.terraform.lock.hcl
+
+# ------------------------
+# AWS / Secrets
+# ------------------------
+*.pem
+*.key
+*.env
+
+# ------------------------
+# IDE / OS
+# ------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# Logs
+# ------------------------
+*.log
+
+# ------------------------
+# Avoid local scripts temp files
+# ------------------------
+*.tmp
